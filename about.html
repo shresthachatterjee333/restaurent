@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <title>Restaurent</title>
+  <link rel="stylesheet" href="./about.css">
+  <style>
+    * {
+        box-sizing: border-box;
+      }
+
+      .container11 {
+        position: relative;
+        width: 60%;
+        max-width: 300px;
+      }
+
+      .image {
+        display: block;
+        width: 100%;
+        height: 22vh;
+      }
+
+      .overlay {
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        /* Black see-through */
+        color: #f1f1f1;
+        width: 100%;
+        transition: .5s ease;
+        opacity: 0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .container11:hover .overlay {
+        opacity: 1;
+      }
+    @media (min-width: 375px) and (max-width: 667px) {
+      .nav{
+    height: 60vh;
+      }
+      .menu1{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.menu{
+    font-size: 10px;
+      
+}
+.btm1{
+    font-weight: bolder;
+    padding-left: 15px;
+    font-size: 15px;
+}
+.btm{
+    font-size: 15px;
+}
+#img1{
+    height: 30vh;
+}
+.midrap1 {
+    grid-template-columns: auto;
+    padding-left: 55px;
+    
+}
+.box1 h1 {
+    font-size: 15px;
+}
+.box1 p {
+    font-size: 12px;
+}
+.mid2{
+    margin-top: 500px;
+}
+.image {
+      display: block;
+      width: 120%;
+      height: 25vh;
+    }
+    .overlay {
+      width: 30%;
+      font-size: 8px;
+    }
+.b1{
+    margin-top: 500px;
+}
+.f3{
+  margin-top: 50px;
+}
+.f2 h6{
+  font-size: 15px;
+}
+.f2 p{
+  font-size: 10px;
+}
+}
+</style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark nav">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="#">
+        <img src="./logo.jpg" alt="Avatar Logo" style="width:150px;" class="rounded-pill">
+      </a>
+      <a class="navbar-brand menu1" href="javascript:void(0)">Bingo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item m1">
+            <a href="./index.html" class="nav-link menu" href="javascript:void(0)">Home</a>
+          </li>
+          <li class="nav-item m1">
+            <a href="./about.html" class="nav-link menu" href="javascript:void(0)">About Us</a>
+          </li>
+          <li class="nav-item dropdown m1">
+            <a class="nav-link dropdown-toggle menu"  role="button" data-bs-toggle="dropdown">Gallery</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./photos.html">Photos</a></li>
+              <li><a class="dropdown-item" href="./videos.html">Videos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item m1">
+            <a href = "./contact.html" class="nav-link menu" href="javascript:void(0)">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2 btm1" type="text" placeholder="Search">
+          <button class="btn btn-primary btm" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="mid1">
+    <div class="midrap1">
+      <div class="box1">
+        <img src="./a1.jpg" id="img1">
+      </div>
+      <div class="box1">
+        <h1>Background
+        </h1>
+        <p>
+          <br>The story of Bingo Restaurent began out of a garage space at Dum Dum , Kolkata in March 2003. Five friends
+          <br>from diverse backgrounds with no formal F & B training but having a passion for food and people, reckoned from
+          <br>their own personal experiences that there was a vacuum in Kolkata for simple 'home style' indian food. The
+          <br> revolves around a widely travelled cook who returns to his
+          <br>native land with a signature culinary style. The business model was inspired by the charming old world concept
+         <br> of 'pice hotel"and moulded to the requirements of the day.
+
+          <br>Within a month of opening the first outlet, Bingo struck a chord with the masses. A combination of
+          <br>filling up the vacuum in the market along with the food, the brand name, the affordability, the simple
+          <br>environment and a bit of media information...all these played a role in attracting the crowds.
+
+          <br>Thereafter the story changed completely...by May 2003 we had huge crowds waiting outside our little outlet on
+          <br>the weekends...it was embarrassing and a time had come to think ahead. In the course of the next few years the
+          <br>market driven demand resulted in Bingo's expansion in Kolkata. The team evolved into a structured
+          <br>format in marketing, operations and CRM areas. The customers...foodies from all over India and many parts of
+          <br>the world including celebrities from different walks of life...contributed immensely in establishing 
+          <br>Bingo. The media also played a major role in promoting brand Bingo.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="mid2">
+    <div class="box">
+      <h1>Menu</h1>
+    </div>
+    <div class="midrap2">
+      <div class="box2">
+        <div class="container11">
+          <img src="./a2.jpg" alt="Avatar" class="image">
+          <div class="overlay">Gulab Jamun</div>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="container11">
+          <img src="./a3.jpg" id="img3" alt="Avatar" class="image">
+          <div class="overlay">Puri</div>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="container11">
+          <img src="./a4.jpg" alt="Avatar" class="image">
+          <div class="overlay">Biryani</div>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="container11">
+          <img src="./a5.jpg" id="img4" alt="Avatar" class="image">
+          <div class="overlay">Rice and Chicken Curry</div>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="container11">
+          <img src="./a6.jpg" alt="Avatar" class="image">
+          <div class="overlay">Paneer Tikka</div>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="container11">
+          <img src="./a7.jpg" alt="Avatar" class="image">
+          <div class="overlay">Rice and Fish Curry</div>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="container11">
+          <img src="./a8.jpg" alt="Avatar" class="image">
+          <div class="overlay">Korean CornDog</div>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="container11">
+          <img src="./a9.jpg" alt="Avatar" class="image">
+          <div class="overlay">Pizza</div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Footer -->
+<footer class="text-center text-lg-start bg text f1 f3">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span></span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 f2">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Company name
+            </h6>
+            <p>
+              The cuisine of a region is intrinsically integrated into the history and culture of the region.
+              Bingo serves all types of cuisine in every region.
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 f2">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact </h6>
+            <p><i class="fas fa-home me-3"></i> 51/71 Dum Dum Road,Kolkata - 700074</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              bingoindex.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> 9051612094</p>
+            <p><i class="fas fa-print me-3"></i> 9836016395</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:Shrestha Chatterjee
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

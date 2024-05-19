@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav{
+    background-color: burlywood;
+}
+.menu1{
+    color: azure;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: cursive;
+    padding-left: 209x;
+}
+.m1{
+    padding-left: 80px;
+}
+.menu{
+    color: brown;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.btm1{
+    font-weight: bolder;
+    padding-left: 150px;
+}
+.btm{
+    background-color: blueviolet;
+    color: azure;
+    font-weight: bolder;
+}
+#img3{
+    padding-top: 25px;
+    height: 40vh;
+    width: 96%;
+    padding-bottom: 50px;
+}
+.f1{
+    
+    background-color: rgb(240, 208, 166);
+    color:brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}

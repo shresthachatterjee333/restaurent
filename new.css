@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.mid2{
+    width: 100%;
+    height: 60vh;
+}
+.midrap2 {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 60vh;
+}
+.box2 {
+    margin-top: 100px;
+}

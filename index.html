@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <title>Restaurent</title>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .container11 {
+      position: relative;
+      width: 70%;
+      max-width: 300px;
+    }
+
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      background: rgb(0, 0, 0);
+      background: rgba(0, 0, 0, 0.5);
+      /* Black see-through */
+      color: #f1f1f1;
+      width: 100%;
+      transition: .5s ease;
+      opacity: 0;
+      color: white;
+      font-size: 20px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container11:hover .overlay {
+      opacity: 1;
+    }
+
+    @media (min-width: 375px) and (max-width: 667px) {
+      .nav {
+        height: 60vh;
+      }
+
+      .menu1 {
+        font-size: 20px;
+        padding-left: 10px;
+      }
+
+      .menu {
+        font-size: 10px;
+
+      }
+
+      .btm1 {
+        font-weight: bolder;
+        padding-left: 15px;
+        font-size: 15px;
+      }
+
+      .btm {
+        font-size: 15px;
+      }
+
+      .c2 {
+        margin-top: 200px;
+      }
+
+      .mid1 {
+        width: 100%;
+        height: 40vh;
+      }
+
+      .midrap1 {
+        height: 20vh;
+        display: grid;
+        grid-template-columns: auto;
+      }
+
+      .box1 {
+        margin-top: 20px;
+      }
+
+      .box1 h1 {
+        font-size: 20px;
+        width: 70%;
+      }
+
+      .box1 p {
+        font-size: 12px;
+        width: 90%;
+      }
+
+      .mid2 {
+        margin-top: 40vh;
+      }
+      .image {
+      display: block;
+      width: 120%;
+      height: 20vh;
+    }
+    .overlay {
+      width: 120%;
+      font-size: 15px;
+    }
+      .c1 {
+        margin-top: 350px;
+      }
+
+      .f2 h6 {
+        font-size: 15px;
+      }
+
+      .f2 p {
+        font-size: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark nav">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="#">
+        <img src="./logo.jpg" alt="Avatar Logo" style="width:150px;" class="rounded-pill">
+      </a>
+      <a class="navbar-brand menu1" href="javascript:void(0)">Bingo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item m1">
+            <a href="./index.html" class="nav-link menu" href="javascript:void(0)">Home</a>
+          </li>
+          <li class="nav-item m1">
+            <a href="./about.html" class="nav-link menu" href="javascript:void(0)">About Us</a>
+          </li>
+          <li class="nav-item dropdown m1">
+            <a class="nav-link dropdown-toggle menu" href="#" role="button" data-bs-toggle="dropdown">Gallery</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./photos.html">Photos</a></li>
+              <li><a class="dropdown-item" href="./videos.html">Videos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item m1">
+            <a href="./contact.html" class="nav-link menu" href="javascript:void(0)">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2 btm1" type="text" placeholder="Search">
+          <button class="btn btn-primary btm" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner c2">
+      <div class="carousel-item active banimg">
+        <img src="f1.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+        <div class="carousel-caption bancap">
+          <h3>Fresh Jalebi</h3>
+          <p>We serve all types of indian sweets</p>
+        </div>
+      </div>
+      <div class="carousel-item banimg">
+        <img src="f2.jpg" alt="Chicago" class="d-block" style="width:100%">
+        <div class="carousel-caption bancap">
+          <h3>Buffet </h3>
+          <p>We have buffet and banquet facilities</p>
+        </div>
+      </div>
+      <div class="carousel-item banimg">
+        <img src="f3.jpg" alt="New York" class="d-block" style="width:100%">
+        <div class="carousel-caption bancap">
+          <h3>Biryani!!!!</h3>
+          <p>We serve authentic Kolkata , Hyderabadi and Lucknowi Biryani... </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <div class="mid1">
+    <div class="midrap1">
+      <div class="box1">
+        <img src="./i1.jpg" id="img1">
+      </div>
+      <div class="box1">
+        <h1>We live a Delicious
+          <br>Memory For You
+        </h1>
+        <p>
+          <br>Bingo Reataurent as it is commonly adressed as is a stylish yet relaxed restaurant. Whether you are
+          <br>looking for a long leisurely lunch with friends, a dinner date with your loved one or a post work bite
+          with a
+          <br>cocktail or two, Red Kitchen is the place to be . We can't wait enough to welcome you.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="mid2">
+    <div class="midrap2">
+      <div class="box2">
+
+        <div class="container11">
+          <img src="./m1.jpg" alt="Avatar" class="image">
+          <div class="overlay">Dosa</div>
+        </div>
+      </div>
+      <div class="box2">
+
+        <div class="container11">
+          <img src="./m2.jpg" alt="Avatar" class="image">
+          <div class="overlay">Idli</div>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="container11">
+          <img src="./m3.jpg" alt="Avatar" class="image">
+          <div class="overlay">Dhokla</div>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="container11">
+          <img src="./m4.jpg" alt="Avatar" class="image">
+          <div class="overlay">Pastry</div>
+        </div>
+      </div>
+      <div class="box2">
+
+        <div class="container11">
+          <img src="./m5.jpg" alt="Avatar" class="image">
+          <div class="overlay">Rajkachori Chaat</div>
+        </div>
+      </div>
+      <div class="box2">
+
+
+        <div class="container11">
+          <img src="./m6.jpg" alt="Avatar" class="image">
+          <div class="overlay">Pakora</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg text f1">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span></span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 f2">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Company name
+            </h6>
+            <p>
+              The cuisine of a region is intrinsically integrated into the history and culture of the region.
+              Bingo serves all types of cuisine in every region.
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 f2">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact </h6>
+            <p><i class="fas fa-home me-3"></i> 51/71 Dum Dum Road,Kolkata - 700074</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              bingoindex.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> 9051612094</p>
+            <p><i class="fas fa-print me-3"></i> 9836016395</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4 " style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:Shrestha Chatterjee
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
